@@ -1,7 +1,7 @@
-n = int(input("enter your number"))
+n= int(input("enter a number"))
 
 count =0
 while n>0:
-    n = n//10
+    n=n//10
     count=count+1
-print("number of digits",count)
+print("the digits",count)
